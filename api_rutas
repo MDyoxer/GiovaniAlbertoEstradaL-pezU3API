@@ -1,0 +1,20 @@
+/
+├── tareas/
+│   ├── agregartarea.php    # POST
+│   ├── editartarea.php     # PUT
+│   ├── eliminartarea.php   # DELETE
+│   └── vertareas.php       # GET
+├── auth/
+│   ├── registro.php        # POST
+│   ├── login.php           # POST
+│   ├── recuperar-password.php # POST
+│   └── reset-password.php  # POST
+├── site/
+│   ├── nav.php             # GET
+│   └── buscar.php          # GET
+├── utils/
+│   ├── validar-email.php   # GET
+│   └── sitemap.php         # GET
+├── contacto.php            # POST
+├── chat.php                # POST/WebSockets
+└── error.php               # Manejo de errores
